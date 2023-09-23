@@ -32,4 +32,4 @@ def add_product():
     return jsonify(new_product), 201
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5000)
